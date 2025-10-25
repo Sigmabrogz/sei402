@@ -8,6 +8,7 @@ import TributeSection from '@/components/TributeSection'
 import LiveDemo from '@/components/LiveDemo'
 import WorkflowSection from '@/components/WorkflowSection'
 import DeveloperSection from '@/components/DeveloperSection'
+import GetStarted from '@/components/GetStarted'
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
@@ -38,7 +39,7 @@ export default function Home() {
               Developers
             </Link>
             <a 
-              href="https://github.com/YourOrg/s402-sei" 
+              href="https://github.com/Sigmabrogz/sei402" 
               target="_blank" 
               rel="noopener noreferrer"
               className="brutal-button text-sm px-4 py-2"
@@ -64,6 +65,9 @@ export default function Home() {
       {/* Developer Section */}
       <DeveloperSection />
 
+      {/* Get Started Section */}
+      <GetStarted />
+
       {/* Footer */}
       <footer className="bg-brutal-black text-brutal-white py-12 mt-20">
         <div className="brutal-container">
@@ -82,6 +86,11 @@ export default function Home() {
                 <li>
                   <a href="https://github.com/coinbase/x402" className="hover:text-brutal-red">
                     Original x402 →
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Sigmabrogz/sei402" className="hover:text-brutal-red">
+                    s402 for Sei →
                   </a>
                 </li>
                 <li>

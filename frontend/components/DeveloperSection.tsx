@@ -214,8 +214,8 @@ const seiConfig = {
             <div className="bg-brutal-white p-4 font-mono text-sm">
               <div className="mb-4">
                 <p className="text-brutal-red font-bold mb-2"># Clone and run locally:</p>
-                <code className="block">git clone https://github.com/YourOrg/s402-sei</code>
-                <code className="block">cd s402-sei/server</code>
+                <code className="block">git clone https://github.com/Sigmabrogz/sei402</code>
+                <code className="block">cd sei402/server</code>
                 <code className="block">npm install</code>
                 <code className="block">npm start</code>
               </div>
@@ -230,7 +230,7 @@ const seiConfig = {
           <div className="mt-12 text-center">
             <div className="inline-flex flex-col md:flex-row gap-4">
               <a
-                href="https://github.com/YourOrg/s402-sei"
+                href="https://github.com/Sigmabrogz/sei402"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="brutal-button"
@@ -238,7 +238,7 @@ const seiConfig = {
                 View Full Documentation →
               </a>
               <a
-                href="https://github.com/YourOrg/s402-sei/tree/main/examples"
+                href="https://github.com/Sigmabrogz/sei402/tree/main/examples"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="brutal-button bg-brutal-white text-brutal-black"
