@@ -8,7 +8,6 @@
     --brutal-red: #FF0037;
     --brutal-black: #000000;
     --brutal-white: #FFFFFF;
-    --brutal-yellow: #FFD700;
   }
 
   * {
@@ -141,14 +140,14 @@
       45deg,
       var(--brutal-red),
       var(--brutal-red) 10px,
-      var(--brutal-yellow) 10px,
-      var(--brutal-yellow) 20px
+      var(--brutal-white) 10px,
+      var(--brutal-white) 20px
     );
     @apply p-4 text-brutal-black font-bold border-4 border-brutal-black;
   }
 
   .brutal-badge {
-    @apply inline-block px-3 py-1 bg-brutal-yellow text-brutal-black font-mono text-xs uppercase;
+    @apply inline-block px-3 py-1 bg-brutal-red text-brutal-white font-mono text-xs uppercase;
     transform: rotate(-2deg);
   }
 }

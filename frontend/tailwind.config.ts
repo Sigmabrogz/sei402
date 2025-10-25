@@ -12,7 +12,6 @@ const config: Config = {
         'brutal-red': '#FF0037',
         'brutal-black': '#000000',
         'brutal-white': '#FFFFFF',
-        'brutal-yellow': '#FFD700',
       },
       fontFamily: {
         'mono': ['Space Mono', 'IBM Plex Mono', 'monospace'],

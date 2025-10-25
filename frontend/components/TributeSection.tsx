@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function TributeSection() {
   return (
-    <section id="tribute" className="py-20 bg-brutal-yellow">
+    <section id="tribute" className="py-20 bg-brutal-white border-t-8 border-brutal-black">
       <div className="brutal-container">
         <motion.div
           initial={{ opacity: 0 }}
