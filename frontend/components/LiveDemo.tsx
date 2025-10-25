@@ -110,7 +110,7 @@ export default function LiveDemo() {
         from: account.address,
         to: paymentReq.payTo,
         value: BigInt(paymentReq.maxAmountRequired),
-        validAfter: 0n,
+        validAfter: BigInt(0),
         validBefore: BigInt(validBefore),
         nonce: nonce as `0x${string}`,
       }
