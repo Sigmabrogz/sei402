@@ -6,6 +6,7 @@
  */
 
 import express from 'express';
+import cors from 'cors';
 import { createPublicClient, createWalletClient, http, parseUnits } from 'viem';
 import { privateKeyToAccount } from 'viem/accounts';
 import dotenv from 'dotenv';
@@ -13,6 +14,16 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
+
+// Enable CORS for all origins (configure for production)
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || '*',
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'X-PAYMENT'],
+  exposedHeaders: ['X-PAYMENT-RESPONSE'],
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Configuration
