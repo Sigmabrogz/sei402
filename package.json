@@ -1,4 +1,31 @@
 {
+  "name": "s402-sei-monorepo",
+  "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@10.7.0"
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run start",
+    "server": "cd server && npm start",
+    "install:all": "npm install && cd frontend && npm install && cd ../server && npm install"
+  },
+  "workspaces": [
+    "frontend",
+    "server",
+    "typescript/packages/*"
+  ],
+  "description": "s402 - HTTP-402 Payments for Sei Network",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sigmabrogz/sei402.git"
+  },
+  "keywords": [
+    "sei",
+    "http-402",
+    "payments",
+    "usdc",
+    "micropayments"
+  ],
+  "author": "Sigmabrogz",
+  "license": "MIT"
 }

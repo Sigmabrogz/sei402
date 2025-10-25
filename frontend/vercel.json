@@ -1,0 +1,23 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "outputDirectory": ".next",
+  "public": false,
+  "github": {
+    "enabled": true
+  },
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://s402-server.up.railway.app",
+    "NEXT_PUBLIC_RPC_URL_TESTNET": "https://evm-rpc-testnet.sei-apis.com",
+    "NEXT_PUBLIC_RPC_URL_MAINNET": "https://evm-rpc.sei-apis.com",
+    "NEXT_PUBLIC_USDC_TESTNET": "0x4fCF1784B31630811181f670Aea7A7bEF803eaED",
+    "NEXT_PUBLIC_USDC_MAINNET": "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392"
+  }
+}
