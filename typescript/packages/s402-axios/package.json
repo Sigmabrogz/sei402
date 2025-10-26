@@ -40,7 +40,7 @@
   "dependencies": {
     "axios": "^1.7.9",
     "viem": "^2.21.26",
-    "s402": "workspace:^",
+    "s402": "^0.6.6",
     "zod": "^3.24.2"
   },
   "exports": {
